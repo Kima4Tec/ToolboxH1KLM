@@ -9,6 +9,14 @@
         public static string[] array2 = { "a", "b", "c", "d", };
         public static int[] array3 = new int[6];
 
+        public static void MyCharArray()
+        {
+            //break up the word in char and put in a new array
+            string happyWord = "Happiness";
+            char[] wordInChar = happyWord.ToCharArray();
+            Console.WriteLine(wordInChar[3]);
+        }
+
         public static void myCarArray() { 
         
                         string[] car = { "Audi", "BMW", "Volvo", "Seat","Ford" };

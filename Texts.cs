@@ -60,6 +60,13 @@ namespace ToolboxH1
             Console.WriteLine(result);
         }
 
+        public static void MySubstring() 
+        {
+            string mySubstringVar = "Her er en test om lykke";
+            string newMySubstringVar = $"{mySubstringVar.Substring(0,mySubstringVar.Length-5)}glæde";
+            Console.WriteLine(mySubstringVar);
+            Console.WriteLine(newMySubstringVar);
+        }
 
         public static void Reverse(string text)
         {

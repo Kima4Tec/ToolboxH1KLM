@@ -7,7 +7,9 @@ namespace ToolboxH1
     {
         static void Main(string[] args)
         {
-            Texts.Reverse("Happiness");
+            Arrays.MyCharArray();
+            //Texts.MySubstring();
+            //Texts.Reverse("Happiness");
             //Texts.Text("Text argument");
             //Texts.TextFun();
             //Arrays.array3[2] = 8;
@@ -20,6 +22,7 @@ namespace ToolboxH1
             //Conditions.SwitchCase2();
             //Console.WriteLine(Methods.StaticReturnMethod());
             //Loops.ForMethodWithModulus();
+            new Methods().TestTest3(); 
         }
     }
 }

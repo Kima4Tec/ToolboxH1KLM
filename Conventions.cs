@@ -18,7 +18,9 @@ namespace ToolboxH1
 
         public int Price
         {
+            //read
             get { return _price; }
+            //write
             set
             {
                 if (value == 192000)
