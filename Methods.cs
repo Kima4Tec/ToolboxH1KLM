@@ -20,7 +20,7 @@ namespace ToolboxH1
         {
             int age = 26;
             bool LeoDecap = true;
-            if if (LeoDecap && age > 25) return;
+            if (LeoDecap && age > 25) return;
                 else
                 {
                     bool LetsParty = true;
